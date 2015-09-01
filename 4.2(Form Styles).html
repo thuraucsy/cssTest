@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		form li {
+			list-style: none;
+			margin-bottom: 20px;
+		}
+		form ul {
+			padding-left: 0;
+		}
+		label {
+			cursor: pointer;
+			display: block; /*ul default is inline*/
+			color: #292929;
+			font-family: sans-serif;
+			padding-bottom: 8px;
+		}
+		textarea {
+			width: 400px;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+	
+<form action="">
+	<ul>
+		<li>
+			<label for="name">Enter your name</label>
+			<input id="name">
+		</li>
+
+		<li>
+			<label for="comments">Your comments:</label>
+			<textarea name="comments" id="comments"></textarea>
+		</li>
+
+		<li>
+			<label for="css">Do you like CSS?</label>
+			<input type="checkbox" id="css">
+		</li>
+
+		<li>
+			<label for="language">Favourite Language?</label>
+			<input type="radio" name="language" id="language"> CSS
+			<input type="radio" name="language" id="language"> HTML
+			<input type="radio" name="language" id="language"> PHP
+			<input type="radio" name="language" id="language"> JAVASCRIPT
+		</li>
+
+		<li><input type="submit" value="GO!"></li>
+
+	</ul>
+</form>
+</body>
+</html>

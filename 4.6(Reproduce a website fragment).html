@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body {
+			width: 600px;
+			margin: 50px auto;
+			font-family: sans-serif;
+		}
+		h2 {
+			font-size: 39px;
+			line-height: 43px;
+			letter-spacing: -1px; /*letter-spacing*/ 
+		}
+		a {
+			color: #276056;
+			font-size: 14px;
+		}
+		a:hover {
+			color: black;
+		}
+		p {
+			font-size: 14px;
+			line-height: 21px;
+		}
+		article img {
+			float: left;
+			margin-right: 30px;
+		}
+		article h2 {
+			margin: 0;
+		}
+		.continue {
+			float: right;
+		}
+		.continue:after {
+			content: ')';
+		}
+		.continue:before {
+			content: '(';
+		}
+		.meta {
+			padding-left: 0;
+			margin: 0 0 8px;
+		}
+		.meta a, .post_info a {
+			font-style: italic; /* style*/
+			text-decoration: none; /*text-decoration*/ 
+		}
+		.meta li:after {
+			content: '\\'; /*after content*/
+			padding: 0 50px;
+			color: #999;
+		}
+		.meta li:last-child:after { /*last child after*/
+			content: none;
+		}
+		.meta li {
+			display: inline;
+		}
+		img {
+			float: left;
+			margin-right: 25px;
+		}
+		.preview {
+			float: right;
+			width: 300px;
+		}
+		.post_info {
+			background: #f3f3f3;
+			color: #999;
+			padding: 2px;
+			float: left;
+			font-size: 14px;
+		}
+		.body {
+			clear: both; /*clear the float*/
+			color: #575757;
+		}
+	</style>
+</head>
+<body>
+
+<article>
+	<img src="img/myanmarS.png" alt="Myanmar">
+
+	<div class="preview">
+		<ul class="meta">
+			<li>
+				<a href="#">Articles</a>
+			</li>
+			<li>
+				<a href="#">Web Roundups</a>
+			</li>
+		</ul>
+
+		<h2>
+			20 JavaScript Frameworks Worth Checking Out
+		</h2>
+		<p class="post_info"><a href="#">Thura</a> on Sep 1st 2015
+			with <a href="#">44 comments</a></p>
+
+		<div class="body">
+			<p>
+				The number of web applications being created and used has grown rapidly since the new millenium. And importatly, so has the sheer complexity of them - specially on the font end. No more static pages, no sir!
+			</p>
+
+			<p>
+				You have a ton of sections each interacting with each other and the server and yes, it's has complicated as it sounds and just as hard to pull of. Today, I'd like to talk about a few, choice JavaScript frameworks that aim to simplify front end application development.
+			</p>
+		</div>
+		<a href="#" class="continue">Continue</a>
+	</div>
+
+
+</article>
+
+</body>
+</html>
