@@ -1,0 +1,12 @@
+.banner {
+	background: url(../img/blue_island.jpg) no-repeat;
+	width: 685px;
+	height: 231px;
+}
+
+header h1 {
+	background: url(../img/logo.jpg);
+	text-indent: -9999px;
+	width: 167px;
+	height: 23px;
+}
